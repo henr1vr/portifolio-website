@@ -92,6 +92,42 @@ header {
     letter-spacing: 20px;
     line-height: 2px;
 }
+.tags {
+    padding: 16px;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 50px;
+}
+.tag {
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    border: 2px solid #000;
+    margin: 0 10px 10px 0;
+    color: #F5F5F5;
+}
+.tag.red {
+background-color: #CC2F1B;
+color: #F5F5F5;
+}
+.tag.purple {
+background-color: #B32CB8;
+}
+.tag.green {
+background-color: #48963B;
+}
+.tag.blue {
+background-color: #1890B5;
+}
+.tag.yellow {
+background-color: #D6CE3C;
+color: #000000;
+}
 
 
 
