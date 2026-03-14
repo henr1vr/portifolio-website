@@ -4,7 +4,7 @@ body {
     font-family: Inter, sans-serif;
     font-size: 1rem;
     font-weight: 100;
-    line-height: 1.6;
+    line-height: 1;
     margin: 0;
     padding: 0;
     background-color: #F5F5F5;
@@ -16,7 +16,7 @@ h1, h2 {
 }
 h1 {
     font-size: 108px;
-    line-height: .5em;
+    line-height: 100px;
 }
 h2 {
     font-size: 40px;
@@ -70,8 +70,7 @@ header {
     padding-right: 25px;
     font-weight: 700;
     border-radius: 5px;
-    border-width: 2px;
-    border-color: #000000;
+    border: 2px solid #000;
 }
 
 /* Hero Section*/
@@ -80,17 +79,23 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: url(Images/Hero\ background\ image.png);
+    background-size: cover;
+    background-position: center;
     padding: 150px;
     max-height: 85vh;
 }
 .name {
     font-size: medium;
-    margin-bottom: 10px;
-    line-height: 1rem;
+    margin-bottom: 16px;
+    line-height: 2.5em
 }
 .heading {
-    letter-spacing: 20px;
-    line-height: 2px;
+    letter-spacing: 18px;
+    line-height: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 1px;
 }
 .tags {
     padding: 16px;
