@@ -134,5 +134,69 @@ background-color: #D6CE3C;
 color: #000000;
 }
 
+/*My Work*/
+.mywork {
+    background-color: #000;
+    color: #D8CF3C
+    padding: 120px 0 100px;
+    text-align:center;
+}
 
+.mywork h2 {
+    color: #D8CF3C;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+/*Gallery Container*/
+.Projects {
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    overflow-x: auto;
+    text-align: left;
+    padding: 0 30px;
+    scrollbar-width: none;
+}
+/*Project cards*/
+.Project {
+    display: inline-block;
+    position: relative;
+    margin: 0 20px;
+    width: 320px;
+    flex-shrink: 0;
+}
+.Project img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+/*Vertical llabels*/
+.label {
+    font-family: Pixelify Sans, sans-serif;
+    font-weight: 50;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+}
+.label.yellow {
+    color: #F7DC70;
+}
+.label.orange {
+    color: #E5A449;
+}
+.label.dark-orange {
+    color: #F86005;
+}
+.label.purple {
+    color: #A171F4;
+}
+.label.blue {
+    color: #8F46F0;
+}
 
